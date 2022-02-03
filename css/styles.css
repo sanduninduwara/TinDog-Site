@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat:wght@300;900&family=Ubuntu:wght@300&display=swap");
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.container-fluid {
+  padding: 2%;
+  padding-bottom: 5%;
+  max-width: 80%;
+}
+
+/* ------------title */
+
+#title {
+  background-color: rgb(240, 116, 133);
+  color: rgb(255, 255, 255);
+}
+
+#dog1 {
+  text-align: center;
+  width: 20%;
+  margin-left: 7%;
+  margin-top: 2px;
+  margin-bottom: 30px;
+
+  position: absolute;
+  /* z-index: -1; */
+  transform: rotate(10deg);
+}
+
+/* ----------------navbar */
+.navbar {
+  margin: 0 0 3rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 15px;
+  font-family: "Ubuntu";
+}
+
+/*---------------- features */
+
+#features {
+  font-family: "Montserrat", sans-serif;
+
+  background-color: rgb(247, 222, 225);
+  color: rgb(18, 14, 14);
+  text-align: center;
+
+  position: relative;
+  /* z-index: 1; */
+}
+
+/* -----------testimonials */
+
+#testimonials {
+  background-color: rgb(245, 149, 162);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 2;
+}
+
+.testimonials-image {
+  width: 20%;
+  border-radius: 90%;
+  margin: 20px;
+}
+
+/* ----------press */
+
+#press {
+  background-color: rgb(243, 150, 163);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 2;
+}
+
+.press-images {
+  width: 20%;
+  margin: 10px;
+}
+
+.carousel-item {
+  padding: 4% 15%;
+}
+
+#pricing {
+  background-color: rgb(247, 223, 217);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 2;
+  padding-top: 50px;
+}
+
+/* cta */
+
+#cta {
+  background-color: rgb(255, 71, 95);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  line-height: 2;
+  padding: 50px;
+  padding-bottom: 100px;
+}
+
+/* footer */
+
+#footer {
+  background-color: rgb(255, 235, 238);
+  color: rgb(35, 35, 35);
+  text-align: center;
+  line-height: 2;
+  padding: 50px;
+}
+
+/* ------------media */
+
+@media (max-width: 768px) {
+  .container-fluid {
+    max-width: 90%;
+    text-align: center;
+  }
+
+  #dog1 {
+    text-align: center;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    position: static;
+    /* z-index: -1; */
+    transform: rotate(0deg);
+  }
+}
